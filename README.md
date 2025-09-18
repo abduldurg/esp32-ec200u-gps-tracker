@@ -2,8 +2,6 @@
 ESP32-based GPS tracker using Quectel EC200U (A7076) GSM/4G module and u-blox GPS.  Sends location via HTTPS with Basic Authentication.
 
 
-# ESP32 + EC200U (A7076) + u-blox GPS Tracker
-
 This project uses an **ESP32** microcontroller with:
 - **Quectel EC200U (A7076) GSM/4G module** for internet connectivity
 - **u-blox GPS module** for location
