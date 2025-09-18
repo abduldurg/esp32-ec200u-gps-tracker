@@ -84,7 +84,7 @@ bool activatePDP(int retries = 5) {
   return false;
 }
 
-// ===== Send to SAP server via HTTPS GET =====
+// ===== Send to server via HTTPS GET =====
 void sendToServer(String lat, String lon, String tsm, String acc, String id, String vno) {
   String filter = "(VehNo eq '" + vno + "' and " +
                   "DeviceID eq '" + id + "' and " +
